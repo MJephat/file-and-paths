@@ -1,3 +1,4 @@
-with open('/home/jephat/desktop/phase-3/file-and-paths/file/Output/output.txt') as hello_file:
-     hello_content = hello_file.read()
-print(hello_content)
+with open('output.txt', 'w') as bacon_file:
+     bacon_file.write('Hello world!\n')
+print(bacon_file)
+
